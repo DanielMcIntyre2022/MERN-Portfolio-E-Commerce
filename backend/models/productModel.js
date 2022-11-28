@@ -10,9 +10,6 @@ const productModel = mongoose.Schema({
     price: {
         type: Number
     },
-    description: {
-        type: String
-    },
     inStock: {
         type: Boolean
     }
